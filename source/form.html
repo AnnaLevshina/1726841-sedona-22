@@ -63,7 +63,7 @@
     </section>
     <section class="page-main__data">
       <div class="data__text">
-        <form class="data__form" name="test" >
+        <form class="data__form" name="test" action="https://echo.htmlacademy.ru">
           <h2>Представтесь</h2> <!-- Стоит ли тут делать это списком или оставить как есть -->
           <p>Имя*:
             <input type="text" size="230" value="Петр">
@@ -79,7 +79,7 @@
     </section>
     <section class="page-main__contact-info">
       <div class="contact-info__text">
-        <form class="contact-info__form" name="test">
+        <form class="contact-info__form" name="test" action="https://echo.htmlacademy.ru">
           <h2>Контактная информация:</h2>
           <p>Контактный телефон*:
             <input type="text" value="Введите телефон"></p>
@@ -99,7 +99,7 @@
       </div>
     </section>
     <section class="page-main__general-impression">
-      <form class="contact-info__form" name="test">
+      <form class="contact-info__form" name="test" action="https://echo.htmlacademy.ru">
         <h2>Ваше общее впечатление:</h2>
         <p>
           <input type="radio" name="browser">Скорее положительное<br>
@@ -108,8 +108,15 @@
         </p>
       </form>
     </section>
+    <section class="page-main__info-error">
+      <div class="info-error__text">
+        <h2>Что-то пошло не так!</h2>
+        <p>Проверте поля, выделенные красным, скорее всего Вы забыли их заполнить</p>
+        <button class="buttom__confirmation">ок</button>
+      </div>
+    </section>
     <section class="page-main__attractions">
-      <form class="attractions__form" name="test">
+      <form class="attractions__form" name="test" action="https://echo.htmlacademy.ru">
         <h2>Посещенные достопримечательности:</h2>
         <p>
           <input type="checkbox" checked>Мост Дьявола<br>
@@ -121,13 +128,20 @@
     </section>
     <section class="page-main__emotion">
       <div class="emotion__text">
-        <form class="emotion__form" name="test">
+        <form class="emotion__form" name="test" action="https://echo.htmlacademy.ru">
           <h2>Опишите свои эмоции:</h2>
           <p>
             <textarea name="comment">Опишите подробно все свои восторги</textarea></p>
         </form>
       </div>
-      <button class="emotion__buttom">Отправить Отзыв</button>
+      <button class="buttom__confirmation buttom__send">Отправить Отзыв</button>
+    </section>
+    <section class="page-main__notification">
+      <div class="notification__text">
+        <h2>Ваш отзыв отправлен!</h2>
+        <p>Спасибо за Ваше участие, Ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+        <button class="buttom__send">Закрыть окно</button>
+      </div>
     </section>
   </main>
   <footer class="page-footer">
