@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru" style="background: lightblue;">  <!-- Временный цвет фона , чтобы видеть белые элементы, мобильная версия -->
+<html class="page" lang="ru">  <!-- Временный цвет фона , чтобы видеть белые элементы, мобильная версия -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <!-- <link href="sass/style.scss" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
 <body class="page__body">
   <header class="page-header">
@@ -27,22 +27,22 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list sity-list">
           <li class="sity-list__item site-list--active">
-            <a class="a__link" href="index.html">
+            <a class="a__link a__color" href="index.html">
               Главная
             </a>
           </li>
           <li class="site-list__item">
-            <a class="a__link" href="catalog.html">
+            <a class="a__link a__color"  href="catalog.html">
               Фото и Видео
             </a>
           </li>
           <li class="site-list__item">
-            <a class="a__link" href="form.html">
+            <a class="a__link a__color" href="form.html">
               Форма Отзыва
             </a>
           </li>
           <li class="site-list__item">
-            <a class="a__link" href="#">
+            <a class="a__link a__color" href="#">
               HTML Academy
             </a>
           </li>
@@ -104,7 +104,7 @@
           <p class="heading__text">
             <input type="radio" name="browser"><sapn class="form__text">Скорее положительное</sapn>
           </p>
-          <p class="heading__text">\
+          <p class="heading__text">
             <input type="radio" name="browser"><sapn class="form__text">Скорее отрицательное</sapn>
           </p>
           <p class="heading__text">
@@ -140,7 +140,7 @@
       <div class="emotion__text">
           <h2 class="heading">Опишите свои эмоции:</h2>
           <p class="heading__text">
-            <textarea name="comment">Опишите подробно все свои восторги</textarea></p>
+            <textarea class="text__textaresa" name="comment">Опишите подробно все свои восторги</textarea></p>
       </div>
       <button class="buttom__confirmation buttom__send">Отправить Отзыв</button>
     </section>
@@ -149,7 +149,7 @@
       <div class="notification__text">
         <h2 class="heading">Ваш отзыв отправлен!</h2>
         <p class="heading__text"><sapn class="form__text">Спасибо за Ваше участие, Ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</sapn></p>
-        <button class="buttom__send">Закрыть окно</button>
+        <button class=" buttom__confirmation buttom__send">Закрыть окно</button>
       </div>
     </section>
   </main>
